@@ -1,0 +1,54 @@
+.welcome-container { 
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* margin: 0 3rem; */
+    /* overflow: hidden; */
+    /* display: flex; */
+    /* background-color: yellow; */
+}
+
+.imgholder { 
+    width: 100%;
+    height: 60vh;
+    /* width: 950px;
+    height: 467px; */
+    /* min-width: 950px; */
+    object-fit: contain;
+    position: relative;
+    /* left: 291px; */
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+img {
+    position: relative;
+    float: right; */
+    /* border: solid 4px var(--moss-green);
+    border-top: none; */
+
+    height: auto;
+    max-width: 100%;  
+    z-index: 1;
+}
+
+.info-container {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    /* margin-top: 10rem; */
+    /* margin-bottom: 5rem; */
+    padding: 1rem;
+    /* left: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    opacity: 90%;
+    border-radius: 1rem;
+    text-align: justify;
+    gap: 1rem;
+    /* float: left; */
+    z-index: 2;
+    background-color: red;
+    /* overflow: hidden; */
+}
