@@ -61,7 +61,7 @@ nav ul {
 nav li {
   display: inline;
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 nav li:not(:last-child)::after {

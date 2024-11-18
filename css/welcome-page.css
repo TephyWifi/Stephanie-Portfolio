@@ -25,9 +25,9 @@
 
 .hero-text {
     align-items: center;
-    color: black;
-    background: rgba(255,255,255);
-    background: rgba(255,255,255,0.3);
+    color: white;
+    background: rgba(0,0,0);
+    background: rgba(0,0,0,0.5);
     padding: 1rem;
     border-radius: 0 50px 0 0;
 }
@@ -42,21 +42,36 @@ article p {
     padding-top: 1rem;
 }
 
+/* .img-columns-container {
+    height: auto;
+    --number-of-columns: 3;
+    --spacing: 15px;
+    --row-height: 356px;
+    --text-align: center;
+    --show-more-container-height: 25px;
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    min-width: initial;
+} */
+
 .img-columns-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    margin-top: 2rem;
-    grid-gap: 2rem;
+    gap: 1.5rem;
+    width: 100vw;
+    padding: 1.5rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: relative;
+    justify-self: stretch;
     overflow: hidden;
-
 }
 
 .img-columns {
-    width: 382px;
-    height: 382px;
-    padding: 5px;
+    width: 33.33%;
+    height: 350px;
+    justify-content: center;
 
  }
 
