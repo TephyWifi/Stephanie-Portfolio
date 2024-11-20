@@ -7,6 +7,12 @@
     --rosy-brown: #BB8A89;
 }
 
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .hero-image  {
     background: url(/img/jeremy-bishop-unsplash.jpg) no-repeat center;
     background-size: cover;
@@ -17,7 +23,7 @@
     display: block;
     width: 80%;
     min-width: 600px;
-    justify-self: center;
+    /* justify-self: center; */
     /* right: -5rem; */
     /* margin: 0 6rem; */
 }
@@ -49,7 +55,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    bottom: 0;
     width: 100%;
     height: auto;
 }
@@ -106,13 +112,14 @@
 .overlay {
     position: absolute;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     bottom: 0;
     background: rgb(255,255,255);
     background: rgba(255,255,255,0.9);
     color: var(--moss-green);
     width: 100%;
+    height: 100%;
     transition: .5s ease;
     opacity: 0;
     font-size: 1.5rem;
