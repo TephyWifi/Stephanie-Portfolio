@@ -46,6 +46,13 @@ header {
   /* background-color: yellow; */
 }
 
+.logo p {
+  color: var(--moss-green);
+  top: -4px;
+  font-size: 0.7rem;
+  padding: 0 3rem 0 0;
+}
+
 
 nav {
   display: flex;
@@ -60,6 +67,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   cursor: pointer;
+
 }
 
 nav li {
@@ -75,6 +83,7 @@ nav a {
   display: inline;
   color: var(--rosy-brown);
   transition: 0.3s;
+  padding-left: 3rem;
 }
 
 nav li:hover {
@@ -82,18 +91,20 @@ nav li:hover {
 
 }
 
-nav a:not(:last-child)::after {
+
+/* nav a:not(:last-child)::after {
   content: " | ";
   font-size: 0.7rem;
   font-weight: lighter;
   margin: 15px;
-}
+} */
 
 main {
   height: 100%;
   overflow: hidden;
   display: block;
   position: relative;
+  /* margin: 0 10rem; */
 }
 
 footer {

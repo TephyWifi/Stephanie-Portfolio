@@ -12,37 +12,70 @@
     background-size: cover;
     height: 600px;
     position: relative;
+    border: solid 4px var(--moss-green);
+    border-top: none;
+    display: block;
+    width: 80%;
+    min-width: 600px;
+    justify-self: center;
+    /* right: -5rem; */
+    /* margin: 0 6rem; */
+}
+
+.hero-title-container {
+    position: absolute;
+    display: flex;
+    top: 1rem;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: left; */
+    width: 13rem;
+    height: auto;
+}
+
+.hero-title {
+    align-items: center;
+    color: var(--moss-green);
+    background: rgb(0,0,0);
+    /* background: rgba(0,0,0,0.5); */
+    background: rgba(255, 255, 255,0.8);
+    padding: 0 0 1rem 1rem;
+    border-radius: 0 50px 50px 0;
 }
 
 .hero-text-container {
     position: absolute;
     display: flex;
+    /* bottom: 1rem; */
     flex-direction: column;
     justify-content: end;
-    align-items: center;
-    width: 25rem;
+    width: 100%;
+    height: auto;
 }
 
 .hero-text {
     align-items: center;
-    color: white;
+    color: var(--moss-green);
     background: rgb(0,0,0);
     /* background: rgba(0,0,0,0.5); */
-    background: rgba(137, 152, 120,0.5);
-    padding: 0 0 1rem 1rem;
-    border-radius: 0 50px 0 0;
+    background: rgba(255, 255, 255,0.8);
+    padding: 0 0 1rem 0;
 }
 
 article h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    color: white;
-    top: -2rem;
+    color: var(--moss-green);
+    top: .5rem;
+
 }
 
 article p {
-    font-size: .8rem;
-    top: -.5rem;
+    font-size: 1rem;
+    bottom: -.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
 }
 
 .category {
@@ -59,21 +92,17 @@ article h2 {
 
 }
 
-.img-columns-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1.5rem;
-    width: 100vw;
-    padding: 1.5rem;
+.img-flex-container {
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    justify-self: stretch;
-    overflow: hidden;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .img-columns {
-    width: 33.33%;
+    width: 30%;
     height: 350px;
     min-width: 316.66px;
     position: relative;
