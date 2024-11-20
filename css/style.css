@@ -92,7 +92,6 @@ main {
   overflow: hidden;
   display: block;
   position: relative;
-  /* margin: 0 10rem; */
 }
 
 footer {
@@ -101,7 +100,6 @@ footer {
   align-items: flex-end;
   border-top: solid 4px var(--moss-green);
   flex-wrap: wrap;
-  
   /* background-color: pink; */
 }
 
