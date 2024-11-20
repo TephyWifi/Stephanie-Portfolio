@@ -1,0 +1,34 @@
+/* Color scheme */
+:root {
+    --black: #08090A;
+    --moss-green: rgb(137, 152, 120);
+    --white: #FFFFFF;
+    --wine: #823038;
+    --rosy-brown: #BB8A89;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    /* margin-bottom: 0; */
+}
+
+.page-title {
+    justify-self: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--moss-green);
+    background: rgb(255,255,255);
+    background: rgba(255, 255, 255,0.7);
+    padding: 2rem;
+    border-radius: 0 50px 50px 0;
+}
+
+.page-text {
+    justify-self: center;
+    padding: 2rem;
+    padding-bottom: 5rem;
+    color: var(--rosy-brown);
+}
