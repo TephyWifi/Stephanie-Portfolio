@@ -79,7 +79,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--rosy-brown);
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 
 nav a:hover {
