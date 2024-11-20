@@ -82,7 +82,7 @@ nav a {
   padding-left: 5rem;
 }
 
-nav li:hover {
+nav a:hover {
   color: var(--moss-green);
   transition: color 0.4s ease;
 
