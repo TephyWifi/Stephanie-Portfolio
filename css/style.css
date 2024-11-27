@@ -154,12 +154,3 @@ footer {
   color: var(--moss-green);
   transition: color .4s ease;
 }
-
-/* @media (max-width: 600px) {
-
-  nav,
-  article {
-    width: 100%;
-    height: auto;
-  }
-} */
